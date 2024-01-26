@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Topcone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg p-3">
+        <div class="container-fluid mx-5">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="./assets/images/Topcone-logo.png"
+              alt=""
+              width="180px"
+              height="60px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">White-Label Apps</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Integrations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+          <!-- Our Experties  -->
+      <section class="card-section">
+        <h1>Welcome to Topcone!</h1>
+        <h1>Our Expertise</h1>
+        <div class="card-main">
+          <div class="card">
+            <img src="./assets/images/card-1.jpg" alt="Card Image" />
+            <div class="card-content">
+              <h2>Custom Software</h2>
+              <button class="read-more-button">Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/card-3.jpg" alt="Card Image" />
+            <div class="card-content">
+              <h2>ERP</h2>
+              <button class="read-more-button">Read More</button>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./assets/images/card-2.jpg" alt="Card Image" />
+            <div class="card-content">
+              <h2>SaaS Apps</h2>
+              <button class="read-more-button">Read More</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- our journey  -->
+      <section class="container-fluid journey-section">
+        <h2 class="js-title">
+         Share Your Challenges & Requirements. <br> Let's Assist & Unlock Opportunities!
+           
+        </h2>
+        <div class="cust-card-section mt-5">
+          <div class="custom-card">
+            <img
+              src="./assets/images/undraw_All_the_data_re_hh4w.png"
+              alt="Icon 1"
+              class="custom-icon"
+            />
+            <h2 class="custom-title">Having Technology Challenges?</h2>
+            <p class="custom-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              dolore, fugiat maxime consequatur culpa optio quibusdam eaque
+              neque amet quis.
+            </p>
+          </div>
+
+          <div class="custom-card">
+            <img
+              src="./assets/images/undraw_real_time_analytics_re_yliv.png"
+              alt="Icon 1"
+              class="custom-icon"
+            />
+
+            <h2 class="custom-title">Looking for Data Management?</h2>
+            <p class="custom-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              dolore, fugiat maxime consequatur culpa optio quibusdam eaque
+              neque amet quis.
+            </p>
+          </div>
+
+          <div class="custom-card">
+            <img
+              src="./assets/images/undraw_Reminder_re_fe15.png"
+              alt="Icon 1"
+              class="custom-icon"
+            />
+
+            <h2 class="custom-title">
+              Seeking White-Label Software?
+            </h2>
+            <p class="custom-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam
+              dolore, fugiat maxime consequatur culpa optio quibusdam eaque
+              neque amet quis.
+            </p>
+          </div>
+        </div>
+        <div class="cust-card-section mt-5">
+          <div class="custom-card">
+            <img
+              src="./assets/images/undraw_Environmental_study_re_q4q8.png"
+              alt="Icon 1"
+              class="custom-icon"
+            />
+
+            <h2 class="custom-title">
+              API & 3rd Party Integrations?
+            </h2>
+            <p class="custom-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Veritatis libero non beatae est, quibusdam tempore!
+            </p>
+          </div>
+
+		<div class="custom-card">
+            <img
+              src="./assets/images/undraw_Interview_re_e5jn.png"
+              alt="Icon 1"
+              class="custom-icon"
+            />
+
+            <h2 class="custom-title">
+              IT Consulting
+            </h2>
+            <p class="custom-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Veritatis libero non beatae est, quibusdam tempore!
+            </p>
+          </div>
+
+
+          <div class="custom-card">
+            <img
+              src="./assets/images/undraw_voice_control_ofo1.png"
+              alt="Icon 1"
+              class="custom-icon"
+            />
+
+            <h2 class="custom-title">In Need of Virtual Assistants?</h2>
+            <p class="custom-description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Veritatis libero non beatae est, quibusdam tempore!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Customer testonimal -->
+      <section class="cust-review">
+        <div class="testimonial-container">
+          <h2 class="js-title">What Do Our Customer Say?</h2>
+          <div class="progress-bar"></div>
+          <div class="fas fa-quote-left fa-quote"></div>
+          <div class="fas fa-quote-right fa-quote"></div>
+          <p class="testimonial">
+            Since applying the Coppercoat system I have been delighted with its
+            performance. There's been much less weed build-up than in previous
+            years, and what did appear has been easy to remove. It’s quite a
+            high initial outlay, but a lot of money will be saved over the years
+            and it seems to work as a very effective anti-fouling with the bonus
+            of offering good hull protection.
+          </p>
+          <div class="user">
+            <img
+              src="https://randomuser.me/api/portraits/women/45.jpg"
+              alt="user"
+              class="user-image"
+            />
+            <div class="user-details">
+              <h4 class="username">Mia Asano</h4>
+              <p class="role">Sales</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Valuabel Customer -->
+      <section class="val-cust">
+        <span class="con-span pb-3">
+          <h2 class="val-rew-h2">Our Valuable Customers</h2>
+        </span>
+        <div class="logos mt-3">
+          <div class="logo_items">
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+            <img class="slid-img" src="./assets/images/c4.png" />
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+            <img class="slid-img" src="./assets/images/c4.png" />
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+            <img class="slid-img" src="./assets/images/c4.png" />
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+          </div>
+          <div class="logo_items">
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+            <img class="slid-img" src="./assets/images/c4.png" />
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+            <img class="slid-img" src="./assets/images/c4.png" />
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+            <img class="slid-img" src="./assets/images/c4.png" />
+            <img class="slid-img" src="./assets/images/c1.png" />
+            <img class="slid-img" src="./assets/images/c2.png" />
+            <img class="slid-img" src="./assets/images/c3.png" />
+          </div>
+        </div>
+        <span class="con-span pb-3">
+          <a href="#" class="con-btn">Contact Us</a>
+        </span>
+      </section>
+    </main>
+    <!-- Footer Section -->
+    <footer class="footer-section">
+      <div class="container-fluid foot-container">
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img
+                      src="./assets/images/Topcone-logo.png"
+                      class="img-fluid"
+                      alt="logo"
+                  /></a>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    Lorem ipsum dolor sit amet, consec tetur adipisicing elit,
+                    sed do eiusmod tempor incididuntut consec tetur adipisicing
+                    elit,Lorem ipsum dolor sit amet.
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">about</a></li>
+                  <li><a href="#">services</a></li>
+                  <li><a href="#">portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">About us</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Expert Team</a></li>
+                  <li><a href="#">Contact us</a></li>
+                  <li><a href="#">Latest News</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>
+                    "Get Ahead of Tomorrow's Tech Challenges: Join Topcone's TechSolutions Newsletter Today!"
+                  </p>
+                </div>
+                <div class="input-container">
+                  <input required="" placeholder="Email Address" type="email" />
+                  <button class="invite-btn" type="button">Subscribe</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2018, All Right Reserved
+                  <a href="https://codepen.io/anupkumar92/">Topcone</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Terms</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Policy</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Slider js -->
+    <script src="./assets/javascript/Slider.js"></script>
+  </body>
+</html>
